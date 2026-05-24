@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  
+  --color-retro-bg: #0f1012;
+  --color-retro-header: #eaddcf;
+  --color-retro-pink: #f3427f;
+  --color-retro-teal: #3ab5b7;
+  --color-retro-gray: #8e8e8e;
+  --color-retro-border: #2a2a2a;
+}
+
+body {
+  background-color: var(--color-retro-bg);
+  color: #d1d5db;
+}
