@@ -7,5 +7,9 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: '/blog/', // Keep this for your GitHub Pages deployment
+  base: '/blog/',
+  build: {
+    outDir: 'docs',
+    emptyOutDir: true,
+  }
 })

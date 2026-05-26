@@ -1,5 +1,6 @@
 {
-  "name": "rewind-blog",
+  "name": "blog",
+  "homepage": "https://psxbrosa.github.io/blog/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,13 +8,19 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",
+    "gh-pages": "^6.3.0",
+    "katex": "^0.17.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
+    "rehype-raw": "^7.0.0",
+    "remark-math": "^6.0.0",
     "tailwindcss": "^4.3.0"
   },
   "devDependencies": {

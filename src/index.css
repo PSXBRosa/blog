@@ -3,15 +3,37 @@
 @theme {
   --font-mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   
-  --color-retro-bg: #0f1012;
-  --color-retro-header: #eaddcf;
-  --color-retro-pink: #f3427f;
-  --color-retro-teal: #3ab5b7;
-  --color-retro-gray: #8e8e8e;
-  --color-retro-border: #2a2a2a;
+  --color-retro-bg: #0d1a12;
+  --color-retro-header: #fdf6e3;
+  --color-retro-green: #2d5a27;
+  --color-retro-yellow: #d4a017;
+  --color-retro-blue: #87ceeb;
+  --color-retro-gray: #7b8c7b;
+  --color-retro-border: #2d3a2d;
 }
 
 body {
   background-color: var(--color-retro-bg);
-  color: #d1d5db;
+  color: #e2e8e2;
+}
+
+/* 70s Stripes */
+.retro-stripes {
+  background: linear-gradient(
+    to bottom,
+    var(--color-retro-green) 0%,
+    var(--color-retro-green) 25%,
+    var(--color-retro-yellow) 25%,
+    var(--color-retro-yellow) 50%,
+    var(--color-retro-blue) 50%,
+    var(--color-retro-blue) 75%,
+    var(--color-retro-header) 75%,
+    var(--color-retro-header) 100%
+  );
+}
+
+/* Enhanced Markdown Spacing */
+.prose p {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
 }
